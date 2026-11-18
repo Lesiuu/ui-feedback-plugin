@@ -1,0 +1,18 @@
+{
+  "description": "Adds the round's git diff to end_round, so the agent never writes it",
+  "hooks": {
+    "PreToolUse": [
+      {
+        "matcher": "^mcp__(plugin_ui-feedback_)?ui-feedback__end_round$",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["${CLAUDE_PLUGIN_ROOT}/hooks/round-diff.mjs"],
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

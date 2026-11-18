@@ -1,0 +1,12 @@
+{
+  "name": "ui-feedback",
+  "description": "UI Feedback: notes left on a running site, read and resolved by your coding agent",
+  "owner": { "name": "Lesiuu" },
+  "plugins": [
+    {
+      "name": "ui-feedback",
+      "source": "./plugins/ui-feedback",
+      "description": "Connects Claude Code to the UI Feedback board at ui.lesiuu.com over MCP, with a skill for working through the notes"
+    }
+  ]
+}

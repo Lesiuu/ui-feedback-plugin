@@ -1,0 +1,8 @@
+{
+  "name": "ui-feedback",
+  "version": "0.1.0",
+  "description": "Read and resolve the UI notes from your UI Feedback board (ui.lesiuu.com). Sign in once from /mcp.",
+  "author": {
+    "name": "Lesiuu"
+  }
+}
